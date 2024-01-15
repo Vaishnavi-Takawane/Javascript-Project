@@ -13,6 +13,7 @@ let screenValue = "";
 let lastScreenValue = "";
 let maxItems = 6;
 let isSign = true;
+let items= maxItems;
 
 for (item of buttons) {
   item.addEventListener("click", (e) => {
@@ -76,7 +77,7 @@ document.addEventListener("keydown", function (event) {
 });
 
 window.onerror = function () {
-  alert("PLEASE INPUT VALID EXPRESSION");
+  alert("INVALID INPUT. PLEASE INPUT VALID EXPRESSION");
   screenValue = "";
   screen.value = screenValue;
   screen.classList.remove("negative"); // Remove negative class
