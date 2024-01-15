@@ -6,7 +6,7 @@ html {
     justify-content: center;
     color: #ecf0f1;
     background-color: rgb(23, 24, 37);
-    font-family: 'Fjalla One', sans-serif;
+    font-family: cursive;
     animation: fadein 1.5s;
     font-family: 'Fjalla One', sans-serif;
 }
@@ -186,7 +186,7 @@ a:hover{
 
 .tittle{
     text-decoration: none; 
-    color: #f1c40f;
+    color: orangered;
     cursor: pointer;
     margin-left: -20px;
 }
