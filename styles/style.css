@@ -137,7 +137,7 @@ a:hover{
 }
 
 .historyelement{
-    color: black;
+    color: darkblue;
     margin: 20px;
     font-size: 40px;
 }
@@ -186,7 +186,7 @@ a:hover{
 
 .tittle{
     text-decoration: none; 
-    color: #f1c40f;
+    color: orangered;
     cursor: pointer;
     margin-left: -20px;
 }
