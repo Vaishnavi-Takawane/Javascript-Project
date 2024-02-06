@@ -76,7 +76,7 @@ document.addEventListener("keydown", function (event) {
 });
 
 window.onerror = function () {
-  alert("PLEASE INPUT VALID EXPRESSION");
+  alert("INVALID, PLEASE INPUT VALID EXPRESSION");
   screenValue = "";
   screen.value = screenValue;
   screen.classList.remove("negative"); // Remove negative class
